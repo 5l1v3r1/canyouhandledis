@@ -2,7 +2,7 @@
 import socket, os, sys, string, random, time
 
 if (len(sys.argv) < 3):
-    print("[!] Usage: python slowpost.py <domain/ip> <port>")
+    print("[!] Usage: python canyouhandledis.py <domain/ip> <port>")
     sys.exit()
 
 target = sys.argv[1]
