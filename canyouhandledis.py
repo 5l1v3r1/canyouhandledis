@@ -8,7 +8,7 @@ if (len(sys.argv) < 3):
 target = sys.argv[1]
 port = int(sys.argv[2])
 
-def gen_string(size=10, chars=string.ascii_uppercase + string.digits):
+def gen_string(size=5, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def banner():
